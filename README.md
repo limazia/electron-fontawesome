@@ -12,7 +12,7 @@ Lista de ícones do FontAwesome (v4.7.0) em um aplicativo desktop
 [Bootstrap](https://getbootstrap.com)\
 [Jquery](https://jquery.com)\
 [Node.js](https://nodejs.org)\
-[Electron](https://www.electronjs.org)\
+[Electron](https://www.electronjs.org)
 
 ## Créditos
 
