@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background: #36393F;
+  color: #fff;
+  font-family: 'Roboto Bold', sans-serif;
+  overflow: hidden;
+}
+
+::-moz-selection {
+  background: #212529;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #36393F;
+}
+
+::-webkit-scrollbar {
+  background: #36393F;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #212529;
+  height: 6vh;
+}
+
+.form-control {
+  background: #292B2F;
+  border: none;
+}
+
+.form-control:focus {
+  background: #292B2F;
+  border-width: #4dabf7;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.table-bordered > thead > tr {
+  border: none !important;
+  background: transparent;
+}
+
+.table-bordered > thead > tr > th {
+  border: none;
+}
+
+.table-bordered > tbody > tr {
+  border: none !important;
+  background: #212529;
+}
+
+.table-bordered > tbody > tr > td {
+  border: none;
+}
+
+.table-bordered > tbody > tr > td:first-child {
+  border-radius: .25em;
+  border: none;
+}
+
+.table-bordered > tbody > tr > td:last-child {
+  border-radius: .25em;
+  border: none;
+}
+
+.table-dark {
+  background: #36393F;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.box-container {
+  height: 100vh;
+}
+
+.col-container {
+  margin-top: 20px;
+}
+
+.box-content {
+  width: 100%;
+  height: 95vh;
+  overflow-y: auto;
+}
+
+.icon-size {
+  font-size: 15px;
+}
+
+.icon-size i {
+  padding: 6px;
+}
+
+.alert-dark {
+  color: #FFF;
+  background-color: #292B2F;
+  border-color: #36393F;
+  border-radius: .25em;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.box-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.box-top .btn {
+  border-radius: 50%;
+}
+
+.box-top > .btn > i {
+  font-size: 30px;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.fadeout {
+  animation: out 1s linear 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes out {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}

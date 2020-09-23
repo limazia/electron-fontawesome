@@ -1,0 +1,40 @@
+{
+  "name": "fontawesomedesktop",
+  "version": "1.0.0",
+  "description": "Font Awesome Desktop",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist:all": "npm-run-all -p dist:*",
+    "dist:mac": "electron-builder --mac",
+    "dist:windows": "electron-builder --windows",
+    "dist:linux": "electron-builder --linux",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": {
+    "name": "Acacio De Lima",
+    "email": "limadeacacio@gmail.com",
+    "url": "https://github.com/limazia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limazia/electron-fontawesome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/limazia/electron-fontawesome/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-task": "^2.1.0",
+    "jquery": "^3.5.1",
+    "remote": "^0.2.6"
+  },
+  "devDependencies": {
+    "electron": "^5.0.5",
+    "electron-tooltip": "^1.1.5"
+  }
+}
